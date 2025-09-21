@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
       {/* Hero Section */}
       <div className="relative rounded-xl border border-gray-800/50 overflow-hidden my-8 p-6 sm:p-8 md:p-16 min-h-[340px] sm:min-h-[400px] flex items-center">
         <div className="absolute inset-0">
-          <img src="https://picsum.photos/seed/universe/1600/900" alt="Blockchain Universe" className="w-full h-full object-cover" />
+          <img src="https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=2070&auto=format&fit=crop" alt="Blockchain Universe" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/70 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
            <div className="absolute inset-0 bg-blend-multiply opacity-50" style={{backgroundImage: 'radial-gradient(circle at top left, #ff2d2d44, transparent 60%), radial-gradient(circle at bottom right, #4a00e044, transparent 60%)'}}></div>
         </div>
